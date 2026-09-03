@@ -19,7 +19,7 @@ const libreFranklin = Libre_Franklin({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://amstrdm-coffee-house.vercel.app"),
+  metadataBase: new URL("https://site-amstrdm-coffee-house.vercel.app"),
   title: {
     default: "AMSTRDM Coffee House | Specialty Coffee & Brunch in Paso Robles & Atascadero",
     template: "%s | AMSTRDM Coffee House",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AMSTRDM Coffee House",
     description: business.description,
-    url: "https://amstrdm-coffee-house.vercel.app",
+    url: "https://site-amstrdm-coffee-house.vercel.app",
     siteName: "AMSTRDM Coffee House",
     images: ["/subjects/paso-robles/01.jpg"],
     locale: "en_US",
@@ -47,9 +47,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     "@context": "https://schema.org",
     "@type": "CafeOrCoffeeShop",
     name: business.fullName,
-    url: "https://amstrdm-coffee-house.vercel.app",
-    image: "https://amstrdm-coffee-house.vercel.app/subjects/paso-robles/01.jpg",
-    logo: "https://amstrdm-coffee-house.vercel.app/brand/logo.png",
+    url: "https://site-amstrdm-coffee-house.vercel.app",
+    image: "https://site-amstrdm-coffee-house.vercel.app/subjects/paso-robles/01.jpg",
+    logo: "https://site-amstrdm-coffee-house.vercel.app/brand/logo.png",
     servesCuisine: "Coffee, Brunch, Breakfast",
     email: business.email,
     sameAs: [business.social.instagram.url, business.social.facebook.url, business.social.yelp.url],

@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { locations } from "@/lib/site-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://amstrdm-coffee-house.vercel.app";
+  const base = "https://site-amstrdm-coffee-house.vercel.app";
   const staticRoutes = ["", "/about", "/menu", "/contact"].map((path) => ({
     url: `${base}${path}`,
     lastModified: new Date(),
